@@ -5,16 +5,17 @@
 }
 
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
 /* impostazioni generali header*/
-.header-bar {
+.logo {
     width: 100%;
     /* debug */
     height: 80px;
     background: orange;
+    border-radius: 0 0 10px 10px;
 }
 
 /* impostazioni generali main */
@@ -24,6 +25,7 @@
     /* debug */
     height: 350px;
     background: lime;
+    border-radius: 10px;
 }
 
 .content-bottom {
@@ -32,6 +34,7 @@
     /* debug */
     height: 600px;
     background: deepskyblue;
+    border-radius: 10px;
 }
 
 .content-bottom .top-bar {
@@ -39,6 +42,7 @@
     /* debug */
     height: 60px;
     background: lightskyblue;
+    border-radius: 10px 10px 0 0;
 }
 
 .content-bottom .left {
@@ -73,6 +77,7 @@
     margin-top: 5px;
     width: 100%;
     /* debug */
-    height: 30px;
+    height: 40px;
     background: grey;
+    border-radius: 10px 10px 0 0;
 }
