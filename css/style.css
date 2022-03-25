@@ -9,4 +9,61 @@
     margin: auto;
 }
 
-/* impostazioni generali */
+/* impostazioni generali header*/
+.header-bar {
+    width: 100%;
+    /* debug */
+    height: 80px;
+    background: orange;
+}
+
+/* impostazioni generali main */
+.content-top {
+    margin-top: 20px;
+    width: 100%;
+    /* debug */
+    height: 350px;
+    background: lime;
+}
+
+.content-bottom {
+    margin-top: 20px;
+    width: 100%;
+    /* debug */
+    height: 600px;
+    background: deepskyblue;
+}
+
+.content-bottom .top-bar {
+    width: 100%;
+    /* debug */
+    height: 60px;
+    background: lightskyblue;
+}
+
+.content-bottom .left {
+    margin: 20px 0;
+    float: left;
+    width: 20%;
+    /* debug */
+    height: 500px;
+    background: lightskyblue;
+}
+
+.content-bottom .center {
+    margin: 20px 2%;
+    float: left;
+    width: 56%;
+    /* debug */
+    height: 500px;
+    background: lightskyblue;
+}
+
+.content-bottom .right {
+    margin: 20px 0;
+    float: left;
+    width: 20%;
+    /* debug */
+    height: 500px;
+    background: lightskyblue;
+}
