@@ -67,3 +67,12 @@
     height: 500px;
     background: lightskyblue;
 }
+
+/* impostazioni generali footer */
+.footer {
+    margin-top: 5px;
+    width: 100%;
+    /* debug */
+    height: 30px;
+    background: grey;
+}
