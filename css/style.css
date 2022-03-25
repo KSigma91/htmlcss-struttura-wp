@@ -37,6 +37,12 @@
     border-radius: 10px;
 }
 
+/* .content-bottom::after {
+    content: '';
+    display: table;
+    clear: both;
+} */
+
 .content-bottom .top-bar {
     width: 100%;
     /* debug */
